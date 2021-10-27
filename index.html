@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="banking-form">
+        
+            <h1>Choose Bank Account to Deposit </h1>
+            <input type="radio" id="BankADeposit" name="deposit" value="BankA">
+            <label for="BankA"> Bank A</label>
+            <input type="radio" id="BankBDeposit" name="deposit" value="BankB">
+            <label for="BankB">Bank B</label>
+
+            <label for="">Enter Amount</label>
+            <input type="text" name="amount" id="amount">
+
+            <button id="deposit">Deposit</button>
+        </div>
+
+        <div id="bankAccounts">
+            <div id="bankA">
+                <p> Bank A </p>
+                <p id="bankABalance"> 0 </p>
+            </div>
+            <div id="bankB">
+                <p> Bank B </p>
+                <p id="bankBBalance"> 0 </p>
+            </div>    
+        </div>
+        
+        <div id="envelope-form">
+            
+            <h2>Choose Bank Account for Envelope </h2>
+
+            <label>Envelope Name</label>
+            <input id="envelope-name" type="text">
+
+            <label>Amount </label>
+            <input id="envelope-amount" type="text">
+
+            <h2>Choose Bank Account for Envelope </h2>
+
+            <input type="radio" id="BankA" name="withdrawal" value="BankA">
+            <label for="BankA"> Bank A</label>
+            
+            <input type="radio" id="BankB" name="withdrawal" value="BankB">
+            <label for="BankB">Bank B</label>
+
+                <button id="create"> Create Envelope </button>
+        </div>
+       
+
+        <div id="envelopes"> </div>
+
+
+    </body>
+</html>
